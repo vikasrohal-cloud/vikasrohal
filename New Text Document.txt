@@ -1,6 +1,6 @@
 here we use git how to use it
 
-1)-git init
+1)-git init { for making git repository}
 2)-git status{if it have some modified data then use ADD --A}
 3)-git add --a
 4)-git commit -m " intial or modified commit "
