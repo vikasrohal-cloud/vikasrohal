@@ -1,1 +1,9 @@
-hey my name vikas choudhary
+here we use git how to use it
+
+1)-git init
+2)-git status{if it have some modified data then use ADD --A}
+3)-git add --a
+4)-git commit -m " intial or modified commit "
+5)-git log {its for check all commit}
+
+
