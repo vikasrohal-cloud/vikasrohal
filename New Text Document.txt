@@ -3,10 +3,10 @@ here we use git how to use it
 1) git init { for making git repository}
 2) git status{if it have some modified data then use ADD --A}
 3) git add --a
-4) git commit -m " intial or modified commit "
-5) git log {its for check all commit}
+4) git commit -m " intial or modified commit "
+5) git log {its for check all commit} [ use 'q' for exit]
 6) rm-rf .git {is for remove repository}
-
+ 
 cloning
 7) git clone ____'enter_source_code'__  {it get copy}
 
@@ -17,7 +17,7 @@ other command "linus based"
 
 
 git ignore here entered
-11) touch log { some log file enter himself }    [ use 'q' for exist]
+11) touch log { some log file enter himself }   
 12) touch .gitignore { open and enter prev name LOG inside}
 13) git add --a {again for staging then commit }   
 
@@ -27,5 +27,6 @@ git ignore here entered
 16) git commit -a -m "direct commit" {it is used for modified data convert
                                       into direct commit ,not new file convert 
                                          use firstly [git add --a] }
-17)
+17) git rm --cached ___filename____ { it remove file from tracking }
+18) 
                                                                             
