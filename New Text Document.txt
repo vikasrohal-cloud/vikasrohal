@@ -2,7 +2,8 @@ here we use git how to use it
 
 1) git init { for making git repository}
 2) git status{if it have some modified data then use ADD --A}
-3) git add --a
+3) git add --a {it is usedfor staging data }
+   git restore --stage { its for unstaging}
 4) git commit -m " intial or modified commit "
 5) git log {its for check all commit} [ use 'q' for exit]
 6) rm-rf .git {is for remove repository}
@@ -30,7 +31,25 @@ git ignore here entered
 17) git rm *filename {it removes the file}
 18) git mv *oldname *newname { it rename the file}
 19) git rm --cached *filename { it remove file from tracking }
+ 
 
+20) git log -p { it shows commit with all changes}
+21) git --stat { it show commit with all changes in short form }
+22) git log --pretty=online { it show all commit in line }
+23) git log --pretty=short { it show commits in short form }
+24) git log --pretty=full { its show some extra inf then short}
+25) git log --since=2.days/months/year {it show previous times commits}
+26) git log --pretty=format "%h -- %ae" { its shows hash no and author.email
+                                       "here we can add more options in strings"
 
-20) git log -p { it shows commit with changes) 
+[
+-----------edit commit 
+
+27) git commit --amend { it open new editor }
+i - for editing 
+esc - for cursor go to bottom side
+:wp - for come out from that editor
+]
+
+28)   
                                                                             
