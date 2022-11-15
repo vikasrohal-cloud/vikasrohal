@@ -3,7 +3,7 @@ here we use git how to use it
 1) git init { for making git repository}
 2) git status{if it have some modified data then use ADD --A}
 3) git add --a {it is usedfor staging data }
-   git restore --stage { its for unstaging}
+   git restore --stage *filename { its for unstaging}
 4) git commit -m " intial or modified commit "
 5) git log {its for check all commit} [ use 'q' for exit]
 6) rm-rf .git {is for remove repository}
@@ -48,9 +48,11 @@ git ignore here entered
 27) git commit --amend { it open new editor }
 i - for editing 
 esc - for cursor go to bottom side
-:wp - for come out from that editor
+:wq - for come out from that editor
 ]
 
 28) git checkout -f { all new work deleted , we go to last working direcory}
-   
+29) git config --global alias.st status { after this command we *st over the status (git st)}
+30) git config --global alias.unstage " restore --staged --" { (git restore --staged *file)
+                                                             coverted into ( git unstage *file)} 
                                                                             
