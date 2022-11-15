@@ -51,5 +51,6 @@ esc - for cursor go to bottom side
 :wp - for come out from that editor
 ]
 
-28)   
+28) git checkout -f { all new work deleted , we go to last working direcory}
+   
                                                                             
