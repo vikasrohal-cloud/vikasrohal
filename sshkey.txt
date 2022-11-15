@@ -1,0 +1,31 @@
+HERE WE DISCUSS ABOUT THE [ SSH.KEY/PUSH ] ON GITHUB ACCOUNT 
+
+1. git remote {for check we added a folder on github or not }
+
+
+if not then 
+2.git remote add *origin git@github.com:vikasrohal-cloud/vikasrohal.git
+        { it is used for making origin name folder }
+__now again we use this command *git remote (now it show *origin )
+
+3. git remote -v { it show push and fetch }
+
+
+
+4. git push -u origin master { it is used for push the code on github}
+
+if not then {
+	we make ssh key firstly
+
+	5.ssh-keygen -t ed25519 -C "cvikas861@gmail.com" { it generate public/private
+              		 ed25519 key pair and - enter  -enter  -enter ....}
+
+	6.eval "$(ssh-agent -s)" { it provide agent pid no  *thats not useful}
+
+	7.ssh-add ~/.ssh/id_ed25519 {it added that idflder with cvikas861@gmail}
+
+	8.tail ~/.ssh/id_ed25519.pub{
+                       IT PROVIDE KEY COPY THAT 
+                            and add in the github account ssh key box  }
+
+9. git push -u origin master { now, everytime for push we use this comand}
